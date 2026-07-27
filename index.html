@@ -1,126 +1,320 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Muthu Malar Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muthu Malar | Portfolio</title>
+
     <style>
-        body {
-            font-family: Arial;
-            background: #f5f5f5;
-            color: #222;
-            margin: 0;
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
         }
 
-        .container {
-            text-align: center;
-            padding: 30px;
+        body{
+            background:#f4f7fb;
+            color:#333;
         }
 
-        h1 {
-            font-size: 40px;
+        header{
+            background:#0d6efd;
+            color:white;
+            text-align:center;
+            padding:40px 20px;
         }
 
-        h2 {
-            color: #0077cc;
-            margin-top: 25px;
+        header img{
+            width:180px;
+            height:180px;
+            border-radius:50%;
+            border:5px solid white;
+            margin-bottom:15px;
         }
 
-        .card {
-            width: 75%;
-            margin: 15px auto;
-            padding: 15px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        header h1{
+            font-size:42px;
         }
 
-        img {
-            border-radius: 50%;
-            border: 3px solid #0077cc;
+        header p{
+            font-size:18px;
+            margin-top:8px;
         }
 
-        a {
-            color: #0077cc;
-            text-decoration: none;
+        .container{
+            width:85%;
+            max-width:1000px;
+            margin:30px auto;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            margin-bottom:20px;
+            border-radius:12px;
+            box-shadow:0 5px 12px rgba(0,0,0,0.1);
+        }
+
+        h2{
+            color:#0d6efd;
+            margin-bottom:12px;
+            border-bottom:2px solid #ddd;
+            padding-bottom:5px;
+        }
+
+        ul{
+            margin-left:20px;
+            line-height:1.8;
+        }
+
+        a{
+            color:#0d6efd;
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        a:hover{
+            text-decoration:underline;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            background:#0d6efd;
+            color:white;
+            margin-top:30px;
         }
     </style>
 </head>
 
 <body>
 
-<div class="container">
+<header>
 
-<img src="profile.jpg" width="180" height="180"><br><br>
+<img src="profile.jpg" alt="Profile Picture">
 
 <h1>MUTHU MALAR O</h1>
-<p>Software Engineer | Student</p>
+
+<p>Computer Science Engineering Student | Aspiring Data Analyst</p>
+
+</header>
+
+<div class="container">
 
 <div class="card">
-<h2>Education</h2>
-<p>First-year B.E Computer Science and Engineering (2025–2029). Strong interest in software development and problem solving.</p>
-</div>
 
-<div class="card">
-<h2>Skills</h2>
-<p>C Programming, Python</p>
-</div>
+<h2>About Me</h2>
 
-<div class="card">
-<h2>Project</h2>
-<p><b>AI Public Healthcare Chatbot</b><br><br>
-AI-based chatbot to assist users with healthcare queries and awareness.<br><br>
-<b>GitHub:</b> Coming Soon
+<p>
+I am a Computer Science and Engineering student passionate about Data Analytics,
+Problem Solving, and Software Development. I enjoy working with data,
+building analytical projects, and continuously improving my programming skills.
+My ambition is to become a Data Analyst and help organizations make
+data-driven decisions.
 </p>
+
 </div>
 
 <div class="card">
-<h2>Online Certificate</h2>
-<p>EC Council – Ethical Hacking & Pentesting</p>
+
+<h2>Career Objective</h2>
+
+<p>
+To secure an internship or entry-level opportunity where I can apply my
+programming and analytical skills, gain real-world experience,
+and grow into a professional Data Analyst.
+</p>
+
 </div>
 
 <div class="card">
+
+<h2>Education</h2>
+
+<p>
+
+<b>B.E. Computer Science and Engineering</b><br>
+
+Currently pursuing Second Year (2025–2029)
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Technical Skills</h2>
+
+<ul>
+
+<li><b>Programming:</b> C, Python, Java</li>
+
+<li><b>Database:</b> SQL</li>
+
+<li><b>Data Analysis:</b> Pandas, NumPy</li>
+
+<li><b>Visualization:</b> Matplotlib</li>
+
+<li><b>Tools:</b> Git, GitHub, VS Code</li>
+
+<li><b>Concepts:</b> Data Structures & Algorithms, OOP, Problem Solving</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Projects</h2>
+
+<h3>1. Olympic Data Analysis</h3>
+
+<p>
+
+Analyzed historical Olympic datasets using Python and Pandas.
+
+</p>
+
+<ul>
+
+<li>Cleaned and processed large datasets.</li>
+
+<li>Performed exploratory data analysis (EDA).</li>
+
+<li>Generated visualizations for medals, athletes, countries, and sports.</li>
+
+<li>Used Pandas and Matplotlib.</li>
+
+</ul>
+
+<br>
+
+<h3>2. AI Public Healthcare Chatbot</h3>
+
+<p>
+
+Designed an AI chatbot to answer healthcare-related questions and
+provide health awareness information.
+
+</p>
+
+<br>
+
+<h3>3. Age Calculator Website</h3>
+
+<p>
+
+Developed a simple responsive website using HTML, CSS, and JavaScript
+to calculate a user's age instantly.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Certifications</h2>
+
+<ul>
+
+<li>EC-Council – Ethical Hacking & Pentesting</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
 <h2>Achievements</h2>
-<p>Participated in 10-hour Hackathon<br>
-Participated in REDEMPTION 2.0</p>
+
+<ul>
+
+<li>Participated in a 10-Hour Hackathon.</li>
+
+<li>Participated in REDEMPTION 2.0 Technical Event.</li>
+
+<li>Regularly solve coding problems on LeetCode and PS Portal.</li>
+
+<li>Completed multiple levels of C Programming practice.</li>
+
+</ul>
+
 </div>
 
 <div class="card">
-<h2>LinkedIn</h2>
-<a href="https://www.linkedin.com/in/muthu-malar-olimuthu-0105173b5" target="_blank">
-View Profile
+
+<h2>Coding Profiles</h2>
+
+<p>
+
+<b>GitHub:</b><br>
+
+<a href="https://github.com/muthumalar2301-lily" target="_blank">
+
+github.com/muthumalar2301-lily
+
 </a>
+
+<br><br>
+
+<b>LinkedIn:</b><br>
+
+<a href="https://www.linkedin.com/in/muthu-malar-olimuthu-0105173b5" target="_blank">
+
+linkedin.com/in/muthu-malar-olimuthu-0105173b5
+
+</a>
+
+</p>
+
 </div>
 
 <div class="card">
-  <h2>GitHub</h2>
-  <a href="https://github.com/muthumalar2301-lily" target="_blank">
-    View Profile
-  </a>
+
+<h2>Currently Learning</h2>
+
+<ul>
+
+<li>Data Analytics</li>
+
+<li>SQL</li>
+
+<li>Power BI</li>
+
+<li>Python for Data Analysis</li>
+
+<li>Data Structures & Algorithms</li>
+
+</ul>
+
 </div>
 
 <div class="card">
-<h2>Technical Skill Categories</h2>
-<p>Programming: C, Python<br>
-Core: Problem Solving</p>
-</div>
 
-<div class="card">
-<h2>Coding Practice</h2>
-<p>Practicing on LeetCode and PS Portal<br>
-Completed 4 levels in C Programming</p>
-</div>
-
-<div class="card">
-<h2>Internship</h2>
-<p>Currently seeking internship opportunities</p>
-</div>
-
-<div class="card">
 <h2>Contact</h2>
-<p>📞 6379417039<br>
-📧 muthumalar2301@gmail.com</p>
+
+<p>
+
+📧 Email: <a href="mailto:muthumalar2301@gmail.com">muthumalar2301@gmail.com</a>
+
+<br><br>
+
+📱 Phone: 6379417039
+
+</p>
+
 </div>
 
 </div>
+
+<footer>
+
+© 2026 Muthu Malar O | Aspiring Data Analyst
+
+</footer>
 
 </body>
+
 </html>
